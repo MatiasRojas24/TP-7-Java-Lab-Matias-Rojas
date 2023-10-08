@@ -1,0 +1,9 @@
+// 5.	Ordenar un array de cadenas de texto en orden alfabético.
+import java.util.Arrays;
+public class Main {
+    public static void main(String[] args) {
+        String[] array = {"a","e","f","b","i","c","h","d","g"};
+        Arrays.sort(array);
+        System.out.println(Arrays.toString(array));
+    }
+}
